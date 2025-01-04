@@ -128,3 +128,34 @@ body{
     width: 24px;
     height: 24px;
 }
+
+@media (max-width: 800px){
+    .weather-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+
+    }
+}
+@media (max-width: 600px){
+    .weather-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+        margin: 104px 24px;
+
+    }
+
+    .search-bar input{
+        max-width: 120px;
+        margin-left: 24px;
+    }
+    .search-bar button{
+        margin-right: 12px;
+
+    }
+}
