@@ -1,0 +1,130 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100vh;
+    transition: background 0.5s ease-in-out;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap:14px;
+    
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-bar{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+ 
+}
+
+.search-bar button{
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    height: 44px;
+    border-radius: 12px;
+    cursor: pointer;
+} 
+.search-bar input{
+    display: flex;
+    align-items: center;
+    height: 44px;
+    width: 400px;
+    font-size: 18px;
+    /* padding: 12px; */
+    padding: 0px 42px ;
+    background-image: url(img/search.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 8px 8px;
+    border-radius: 12px;
+    box-shadow: indigo;
+
+}     
+
+.main-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+}
+
+.weather-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    /* margin: 0 auto; */
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Set the background color to be transparent */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
+    margin-top: 105px;
+    background-image: linear-gradient(aqua, pink);
+    
+}
+
+.weather-info div img{
+    width: 24px;
+    height: 24px;
+}
+
+.weather-info > div {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Space out items horizontally */
+    gap: 10px;
+}
+
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center ;
+    flex-direction: column; */
+    gap: 12px;
+    font-weight: bold;
+    
+}
+
+.contents > div {
+    display: flex;
+    flex-direction: column; /* Arrange icons and text in a column */
+    align-items: center;
+    text-align: center;
+    width: calc(50% - 10px); /* Two items per row with spacing */
+    gap: 10px;
+}
+
+.contents div img{
+    width: 24px;
+    height: 24px;
+}

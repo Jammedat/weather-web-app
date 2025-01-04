@@ -1,0 +1,7 @@
+.color{
+    background-color: black;
+}
+
+.invert{
+    filter: invert(1);
+}

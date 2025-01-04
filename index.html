@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="img/logo.svg" alt="logo">
+            <h1>WEATHERY</h1>
+        </div>
+        <div class="nav">
+            <!-- <h3>Today</h3>
+            <h3>Tomorrow</h3>
+             -->
+        </div>
+    </div>
+    <div class="cont">
+
+        <div class="search-bar">
+            <input type="text" id="locationInput" placeholder="Search City" >
+            <button id="search-button">Search</button>
+        </div>
+            
+    </div>
+    <div class="main-cont"> 
+        <div class="weather-info">
+            <div>
+                <img src="img/icons/location-svgrepo-com.svg" alt="">
+                <p id="location"></p>
+            </div>
+            <div>
+                <img src="img/icons/temperature-svgrepo-com.svg" alt="">              
+                <h1 id="temperature">
+                    
+                </h1>
+            </div>
+            <!-- <div>
+                <img src="img/icons/date-svgrepo-com.svg" alt="">
+                <p id="date"></p>
+            </div> -->
+            <div>
+                <img src="img/icons/time-clock-svgrepo-com.svg" alt="">
+                <p id="time"></p>
+            </div>
+            <div class="contents">
+                <div>
+                    <img src="img/icons/humidity-svgrepo-com.svg" alt="">
+                    <p id="humidity"></p>
+                </div>
+                <div>
+                    <img src="img/icons/visibility-eye-svgrepo-com.svg" alt="">
+                    <p id="visibility"></p>
+                </div>
+                <div>
+                    <img src="img/icons/pressure-meter-svgrepo-com.svg" alt="">
+                    <p id="airPressure"></p>
+                </div>
+                <div>
+                    <img src="img/icons/wind-svg-svgrepo-com.svg" alt="">
+                    <p id="wind"></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
